@@ -1,0 +1,109 @@
+*{
+    color: black;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.big_banner{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 700px;
+}
+
+.second_banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.return a{
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.modif a{
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.search{
+    position: relative;
+}
+
+.search input{
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+    border-color: black;
+    border-width: 1px;
+    box-shadow: 0 0 2px;
+    color: black;
+    position: absolute;
+    z-index: 200000;
+}
+
+.search button{
+    margin-left: 188px;
+    position: absolute;
+    z-index: 1;
+    text-decoration: none;
+    color: white;
+    background-color: deepskyblue;
+    padding: 9px 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: none;
+    font-weight: 500;
+}
+
+table{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 30px;
+}
+
+table thead{
+    border-radius: 30px;
+}
+
+table thead tr{
+    background-color: gray;
+    border-radius: 0px;
+}
+
+table thead tr th .nom{
+    padding: 0px 50px;
+}
+
+table thead tr th{
+    background-color: whitesmoke;
+    box-shadow: 0 0 1px;
+    border: none;
+    padding: 10px 0px;
+
+}

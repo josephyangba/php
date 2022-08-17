@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.tout{
+   
+    width: 90%;
+    height: 90%;
+    position: absolute;
+}
+.carre2{
+    position: relative;
+    border: solid  1px rgb(19, 16, 16);
+    width: 40%;
+    height: 60%;
+    left: 30%;
+    top: 20%;
+    background: white;
+    text-align: center;
+    padding-top: 70px;
+
+    border-radius: 10px;
+}
+input{
+   position: relative;
+   border-top:none ;
+   border-left: none;
+   border-right: none;
+   width: 80%;
+   margin-top:10px ;
+   text-transform: lowercase;
+   font-family: 'Courier New', Courier, monospace;
+   border-bottom: solid 1PX rgb(23, 196, 248);
+   outline: none;
+}
+#troi{
+    position: relative;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+    width: 25%; 
+    margin-left:15px ;
+}
+label{
+    position: relative;
+    right: 34%;
+    top: 5PX;
+}
+input::placeholder{
+    color: black;
+}
+.carre2 h3{
+    position: relative;
+    bottom: 10%;
+
+}
+button{
+    position: relative;
+    top: 10%;
+    margin-left: 10%;
+    right: 7%;
+    width: 25%;
+    background:  rgb(23, 196, 248);
+    height: 7%;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    top: 2px;
+    animation: img 2s linear infinite;
+
+
+}
+@keyframes img{
+    50%{opacity: 0;}
+}
+.img{
+    position: absolute;
+    border: solid 1px  rgb(23, 196, 248) ;
+    left: 90%;
+    height: 50px;
+    top: 10px;
+    width: 80px;
+    border-radius: 25px;
+    background:  rgb(23, 196, 248);
+}

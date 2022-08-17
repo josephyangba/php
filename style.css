@@ -1,0 +1,100 @@
+.barre{
+    background-color: none;
+    border:solid 2px deepskyblue;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+body{
+    background-color:white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    padding: 15px;
+    margin: 0px;
+    font-size: 20px;
+}
+a li:hover{
+    background-color: deepskyblue;
+    color: white;
+}
+#inscription{
+    background-color: deepskyblue;
+    width: 300px;
+    height: 50px;
+    color: white;
+    border-radius: 30px;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    text-align: center;
+    font-size: 30px;
+}#inscription:hover{
+    background-color: black;
+    color: white;
+}
+#inscription p{
+    position: relative;
+    top: -40%;
+    animation: clignote 2s linear infinite;
+    margin: 25px;
+}
+@keyframes clignote{
+    50%{opacity: 0;}
+}
+.trait{
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 73%;
+    left: 40%;
+    transform: rotate(-45deg);
+    border-radius: 30px;
+}
+.text{
+  font-size: 50px;
+  position: absolute;
+  left: 52%;
+  top: 28%;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+h2{
+    font-size: 20px;
+}
+.diaporama{
+    position: absolute;
+    position: absolute;
+    left: 30%;
+    top: 22%;
+    width: 300px;
+    height: 300px;
+
+    background-color: deepskyblue;
+    background-size: contain;
+    animation: fondu 8s ease-in-out infinite both;
+}
+.conteneur{
+    max-width: 300px;
+ 
+}
+.diaporama:hover{
+    animation-play-state: paused;
+}
+@keyframes fondu{
+    0%{background-image: url("Diapo/1.PNG");}
+    33.33%{background-image: url("Diapo/2.PNG");}
+    53.33%{background-image: url("Diapo/3.PNG");}
+    73.33%{background-image: url("Diapo/1.PNG");}
+    83.33%{background-image: url("Diapo/2.PNG");}
+    100%{background-image: url("Diapo/3.PNG");}
+}
